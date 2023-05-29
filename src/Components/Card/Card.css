@@ -1,0 +1,29 @@
+.card{
+    width: 15rem;
+    height: 27rem;
+    border-radius: 0.5;
+    box-shadow: rgba(255, 255, 255, 0.28);
+    display: flex;
+    flex-direction: column;
+    background: var(--greyish);
+    outline: none;
+  }
+  
+  .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .content>img{
+    object-fit: cover;
+    width: 100%;
+  }
+  
+  .content>span{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }

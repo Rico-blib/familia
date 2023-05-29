@@ -1,0 +1,33 @@
+.footer{
+    background-color: var(--gray);
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+} 
+
+.contacts{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.contacts>span{
+    font-size: 2rem;
+    color: var(--darkOrange);
+}
+
+.icons{
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    gap:2rem;
+    cursor: pointer;
+}
+
+.icons:hover{
+    color: var(--darkRed);
+}

@@ -1,0 +1,58 @@
+.events{
+  height: 60vh;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 3rem 0 3rem;
+}
+
+.noticeBoard{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.board{
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  border-radius: 1.5rem;
+  box-shadow: rgba(255, 255, 255, 0.28);
+  border: 10px;
+  outline: none;
+  background: var(--greyish);
+  width: 45rem;
+  height: 20rem;
+  overflow-x: clip;
+}
+
+.text{
+  background: var(--darkOrange);
+  padding: 1rem;
+  justify-content: center;
+}
+
+.list{
+  display: flex;
+  flex-direction: column;
+}
+
+.type>li{
+  list-style-type: disc;
+  cursor: pointer;
+  color: white;
+  font-size: 1.3rem;
+}
+
+.type>li:hover{
+  color: var(--darkOrange);
+}
+
+
+.upcomingEvent{
+  flex: 1;
+  display: flex;
+  gap: 1rem;
+
+}
+

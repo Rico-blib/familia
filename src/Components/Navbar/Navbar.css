@@ -1,0 +1,56 @@
+.navbar{
+    height: 9.5vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--darkOrange);
+    position: relative;
+}
+
+.l-side{
+    flex: 1;
+    padding: 2rem;
+}
+
+.logo{
+    background-color: var(--darkBlue);
+    border-radius: 4rem;
+    width: fit-content;
+    padding: 0.5rem;
+    text-transform: uppercase;
+    color: white;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+ .logo>span{
+    z-index: 2;
+ }
+
+.logo>div{
+    position: absolute;
+    background-color: var(--darkRed);
+    width: 4rem;
+    height: 80%;
+    left: 8px;
+    border-radius: 3rem;
+    z-index: 1;
+}
+
+.r-side{
+    flex: 0.4;
+    display: flex;
+    align-items: center;
+}
+
+.r-side>ul{
+    display: flex;
+    gap: 2rem;
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.r-side>ul>li:hover{
+    color: var(--darkRed);
+}
