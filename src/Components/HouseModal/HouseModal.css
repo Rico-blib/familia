@@ -1,0 +1,53 @@
+.familyDetails{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.parents>span{
+    font-weight: 800;
+    font-size: 1rem;
+    color:  rgb(252, 134, 91);
+}
+
+
+.parentList{
+    list-style-type: circle;
+}
+.parentList>li{
+    color: rgb(6, 201, 6);
+}
+.all{
+    display: flex;
+    justify-content: space-between;
+}
+
+.children>span{
+    font-weight: 800;
+    font-size: 1rem;
+    color: rgb(114, 114, 244);
+}
+.childList>li{
+    color: rgb(148, 148, 7);
+}
+
+.grand>span{
+    font-weight: 800;
+    font-size: 1rem;
+    color: brown;
+}
+.grandList>li{
+    color: rgb(133, 28, 232);
+}
+.greatGrand>span{
+    font-weight: 800;
+    font-size: 1rem;
+    color: purple;
+}
+.greatList>li{
+    color: rgb(250, 93, 119);
+}
+
+
+

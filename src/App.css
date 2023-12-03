@@ -5,6 +5,8 @@
     --blurBlue:#23213a;
     --darkRed: #cd4a50;
     --gray: #787a85;
+    --shadow: 0px 4px 17px 2px rgba(0,0,0,0.25);
+    --cardColor: rgba(255, 235, 254, 0.95);
 }
 
 .App{
@@ -14,3 +16,20 @@
 ::-webkit-scrollbar {
     display: none;
    }
+
+   .btn {
+    width: max-content;
+    padding: 1rem;
+    border-radius: 4rem;
+    border: none;
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+    background-color: var(--darkRed);
+    transition: all 100ms ease-out;
+  }
+
+  .btn:disabled {
+    background: silver;
+    pointer-events: none;
+  }

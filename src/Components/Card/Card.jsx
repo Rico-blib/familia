@@ -3,11 +3,13 @@ import "./Card.css";
 
 const Card = ({ img, detail, date }) => {
   return (
-    <div className="card">
-      <div className="content">
+    <div className="posts">
+      <div className="post">
         <img src={img} alt="" />
-        <span>{detail}</span>
-        <span>{date}</span>
+        <div className="contains">
+          <span>{detail}</span>
+          <span>{date}</span>
+        </div>
       </div>
     </div>
   );

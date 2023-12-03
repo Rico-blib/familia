@@ -7,10 +7,11 @@ const Footer = () => {
       <div className="contacts">
         <span>wainaincous@gmail.com</span>
         <div className="icons">
-          <Facebook style={{fontSize:'45px'}}/>
-          <Twitter style={{fontSize:'45px'}} />
-          <WhatsApp style={{fontSize:'45px'}}/>
+          <Facebook style={{fontSize:'45px', color:'blue'}} />
+          <Twitter style={{fontSize:'45px', color:'orange'}} />
+          <WhatsApp style={{fontSize:'45px',color: 'green'}}/>
         </div>
+        <span> Contact: <span color="white">+254757117792</span></span>
       </div>
     </div>
   );

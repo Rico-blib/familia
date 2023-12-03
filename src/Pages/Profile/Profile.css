@@ -1,0 +1,61 @@
+.profile{
+
+}
+.profileCards{
+    display: flex;
+    background-color: var(--darkOrange);
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.intro:nth-child(1){
+    font-size: 2rem;
+    flex-direction: column;
+}
+
+.search{
+    display: flex;
+    border-radius: 10px;
+    background-color: var(--darkBlue);
+    padding: 5px;
+    width: 70%;
+}
+
+.manyProfiles{
+    display: flex;
+    gap: 1rem;
+    justify-content: center; 
+    align-items: center;
+    min-width: 00px;
+    min-height: 50px;
+    overflow: hidden;
+    flex-wrap: wrap;
+    padding: 0 3rem 0 3rem;
+}
+
+.portfolio{}
+
+
+.search>input{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 17px;
+    color: var(--darkOrange);
+}
+.search:nth-child(2){
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+

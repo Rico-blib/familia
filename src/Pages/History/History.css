@@ -1,0 +1,21 @@
+.h-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first>span{
+    color: rgb(233, 160, 25);
+    font-size: 2rem;
+    font-weight: 600;
+}
+p{
+    font-size: 1.2rem;
+    color: rgb(67, 61, 61);
+}

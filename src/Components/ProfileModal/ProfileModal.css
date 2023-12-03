@@ -1,0 +1,29 @@
+.bioForm{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 2rem;
+}
+
+.infoInput{
+   border: none;
+   outline: none;
+   background-color: var(--darkBlue);
+   border-radius: 8px;
+   padding: 20px;
+   flex: 1; 
+   color: white;
+}
+
+.bioForm>div{
+    display: flex;
+    gap: 1rem;
+    height: 2rem;
+    width: 90%;
+}
+
+.infobtn{
+    width: 6rem;
+    align-self: flex-end;
+}

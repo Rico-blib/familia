@@ -1,0 +1,11 @@
+.housePage{
+    display: flex;
+    gap: 1rem;
+    justify-content: center; 
+    align-items: center;
+    min-width: 00px;
+    min-height: 50px;
+    overflow: hidden;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}

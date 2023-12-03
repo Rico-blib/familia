@@ -1,0 +1,65 @@
+.container{
+    border-radius: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 1rem;
+    width: 18rem;
+    height: 26rem;
+    overflow-x: clip;
+    background: var(--darkOrange);
+
+}
+
+.pimg{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pimg>img:nth-of-type(1){
+ width: 100%;
+ object-fit: cover;
+ height: 9rem;
+}
+.pimg>img:nth-of-type(2){
+    position: absolute;
+    width: 6rem;
+    border-radius: 50%;
+    bottom: -3rem;
+    box-shadow: var(--shadow);
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+}
+.content>span:nth-of-type(1){
+    font-weight: 600;
+}
+
+.updatebtn{
+    align-self: center;
+}
+
+.button{
+    width: max-content;
+    padding: 0.5rem;
+    border-radius: 2rem;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: var(--darkRed);
+    transition: all 100ms ease-out;
+}
+
+.one:hover{
+    background-color: transparent;
+    border: 1px solid var(--darkRed);
+    font-weight: bold;
+}
